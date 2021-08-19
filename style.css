@@ -72,9 +72,11 @@ h3{
 }
 .submitbuttton{
    background-color: #4267B2;
-   padding:8px;
+   padding:8px 0px;
    font-size: 22px;
+   font-family: arial;
    width: 50%;
+   margin: 0px auto;
    outline: none;
    border: 0.5px solid black;
    border-radius: 5px;
