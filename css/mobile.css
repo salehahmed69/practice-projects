@@ -1,34 +1,31 @@
 #body{
-   background-color: rgb(221, 221, 221);
+   background-color: rgba(241, 244, 252, 0.938);
    margin: 0px;
    padding: 0px;
 }
 
 .header{
-   background-color: #4267B2;
+   background-color: #377affbb;
+   color: rgb(0, 0, 0);
    padding: 8px;
-   margin-top: -20px;
-   
-    
+   margin-top: -5px;
+   display:block;
+   position: relative;   
 }
 
 .fb-logo{
-   font-size: 35px;
-   font-family: 'Hachi Maru Pop', cursive;
-   font-family: 'Noto Serif', serif;
+   font-size: 28px;
    font-family: 'Poppins', sans-serif;
-
    font-style: initial;
-   display: inline-block;
-   color: white;
-   font-weight: 850;
-   margin-left: 250px;
-   margin-top: 15px;
-  
+   color: rgb(0, 0, 0);
+   font-weight: 900;
+   width: 100%;
+   margin:0px auto;
+   text-align: center;
 }
 
 .signup{
-   width: 75px;
+   /* width: 75px;
    box-shadow: 2px;
    background-color: #42b72a;
    color: white;
@@ -36,30 +33,30 @@
    padding: 4px 0px;
    outline: none;
    border: none;
-   border-radius: 1px;
-}
-h3{
-   padding-top: 35px;
-   font-family: arial; 
-   font-weight: 700; 
-   font-size: 30px; 
-   margin-bottom: 15px;
+   border-radius: 1px; */
+   display: none;
 }
 
 .midle{
+   width: 80%;
    height: 444px;
-   width: 40%;
-   margin: 120px auto;
-   background-color: rgb(255, 253, 253);
-   align-items: center;
-   justify-content: center;
+   margin: 40px auto;
+   border-radius: 5px;
    text-align: center;
-   box-shadow: 4px 5px 5px 0px rgba(136,136,136,0.64);
-   border-radius: 2px;
+   background-color: rgb(255, 253, 253);
+   box-shadow: 4px 5px 5px 0px rgba(136,136,136,0.64); 
+}
+
+h3{
+   font-size: 25px;
+   font-weight: 700;
+   padding-top: 32px; 
+   font-family: arial; 
+   margin-bottom: 11px;
 }
 
 .input2{
-   width:50%;
+   width:85%;
    border: 1px solid #aaa;
    border-radius:5px ;
    outline: none;
@@ -73,41 +70,42 @@ h3{
    border-color: dodgerblue;
    box-shadow: 0 0 4px 0 dodgerblue;
 }
+
 .submitbuttton{
-   background-color: #4267B2;
+   width: 30%;
+   outline: none; 
+   color: white;
    padding:8px 0px;
    font-size: 22px;
+   font-weight: 850;
+   margin: 0px auto; 
    font-family: arial;
-   width: 50%;
-   margin: 0px auto;
-   outline: none;
-   border: 0.5px solid black;
    border-radius: 5px;
-   color: white;
-   font-weight: 800;
+   background-color: #414650e5;
+   border: 0.5px solid rgb(0, 0, 0);   
 }
-.submitbuttton:hover{
+/* .submitbuttton:hover{
    background-color: #517ed8;
    color: black;
    border: none;
    border-bottom: 4px solid rgb(245, 85, 85);
    transition: 0.9s;
    transform: scale(1.04);
-}
+} */
 
 a h4 {
-   font-weight: 500;
+   font-weight: 400;
    font-style: italic;
    font-family: 'Noto Serif', serif;
-   font-size: 15px;
+   font-size: 12px;
    margin-top: 15px;
 }
 
 .hrline{
    width: 90%;
    height: 2px;
-   border-bottom: 1.8px solid #dadde1;
    margin: 20px auto;
+   border-bottom: 1.8px solid #dadde1;
 }
 
 .new-account-div{
@@ -115,18 +113,19 @@ a h4 {
 }
 
 .new-account{
-   text-decoration: none;
-   color: white;
-   background-color:#42b72a;
-   font-family: inherit;
-   
    border: none;
-   border-radius: 6px;
-   font-size: 20px;
-   
-   padding: 12px 48px;
-   /* margin:8px; */
    display: block;
+   color: rgb(0, 0, 0);
+   font-size: 20px;
+   font-weight: 150;
+   border-radius: 6px;
+   padding: 12px 44px;
+   font-family: inherit;
+   text-decoration: none;
+   background-color:#2ecc0e;
+   /* margin:8px; */
+   
+    
 
 }
 
@@ -136,7 +135,10 @@ a h4 {
 }
 
 .foter{
-   visibility: none;
+   visibility: visible;
+   text-align: right;
+   font-size: 13px;
+   margin: 0 25px 10px 0 ;
 }
 
 
