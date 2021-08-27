@@ -1,39 +1,38 @@
 #body{
-   background-color: rgba(241, 244, 252, 0.938);
    margin: 0px;
    padding: 0px;
+   background-color: rgba(205, 206, 209, 0.555);
 }
 
-.header{
-   background-color: #377affbb;
-   color: rgb(0, 0, 0);
-   padding: 8px;
-   margin-top: -5px;
-   display:block;
-   position: relative;   
-}
-
-.fb-logo{
-   font-size: 28px;
-   font-family: 'Poppins', sans-serif;
-   font-style: initial;
-   color: rgb(0, 0, 0);
-   font-weight: 900;
+.header-section{
    width: 100%;
-   margin:0px auto;
-   text-align: center;
+   height: 55px;
+   display: block;
+   position:relative;
+   background-color: #4267B2;
 }
 
-.signup{
-   /* width: 75px;
-   box-shadow: 2px;
-   background-color: #42b72a;
-   color: white;
-   font-weight: 700;
-   padding: 4px 0px;
-   outline: none;
-   border: none;
-   border-radius: 1px; */
+.sub-header{
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   width: 50%;
+   height: 55px;
+   margin: 0px auto;
+   position: absolute;
+}
+
+.logo{
+   width: 100%;
+   margin: auto;
+   font-size: 40px;
+   text-align: center;
+   color: rgb(255, 255, 255);
+   text-shadow:2px 2px 2px #141313e3;
+}
+
+.button-box, .signup-button{
    display: none;
 }
 
@@ -43,7 +42,7 @@
    margin: 40px auto;
    border-radius: 5px;
    text-align: center;
-   background-color: rgb(255, 253, 253);
+   background-color: rgb(247, 244, 244);
    box-shadow: 4px 5px 5px 0px rgba(136,136,136,0.64); 
 }
 
@@ -57,13 +56,13 @@ h3{
 
 .input2{
    width:85%;
-   border: 1px solid #aaa;
-   border-radius:5px ;
    outline: none;
-   box-sizing: border-box;
-   padding: 14px 20px;
-   padding-left: 8px;
    transition:0.4s;
+   padding-left: 8px;
+   border-radius:5px ;
+   padding: 14px 20px;
+   box-sizing: border-box;
+   border: 1px solid #aaa;
 }
 
 .input2:focus{
@@ -77,28 +76,20 @@ h3{
    color: white;
    padding:8px 0px;
    font-size: 22px;
-   font-weight: 850;
+   font-weight: 800;
    margin: 0px auto; 
    font-family: arial;
    border-radius: 5px;
-   background-color: #414650e5;
+   background-color:tomato;
    border: 0.5px solid rgb(0, 0, 0);   
 }
-/* .submitbuttton:hover{
-   background-color: #517ed8;
-   color: black;
-   border: none;
-   border-bottom: 4px solid rgb(245, 85, 85);
-   transition: 0.9s;
-   transform: scale(1.04);
-} */
 
 a h4 {
+   font-size: 12px;
    font-weight: 400;
+   margin-top: 15px;
    font-style: italic;
    font-family: 'Noto Serif', serif;
-   font-size: 12px;
-   margin-top: 15px;
 }
 
 .hrline{
@@ -115,30 +106,31 @@ a h4 {
 .new-account{
    border: none;
    display: block;
-   color: rgb(0, 0, 0);
+   
    font-size: 20px;
    font-weight: 150;
    border-radius: 6px;
    padding: 12px 44px;
    font-family: inherit;
    text-decoration: none;
+   color: rgb(0, 0, 0);
    background-color:#2ecc0e;
-   /* margin:8px; */
-   
-    
-
+   border: 1px solid rgba(0, 0, 0, 0.5);
 }
 
 .new-account:hover{
+   transition: 0.4s; 
    background-color: #44d826;
-   transition: 0.4s;
 }
 
-.foter{
-   visibility: visible;
-   text-align: right;
+.foter{ 
+   width: 100%;
+   float: right;
+   color: gray;
+   display: block;
    font-size: 13px;
-   margin: 0 25px 10px 0 ;
+   text-align: right;
+   margin: 0 30px 18px 0;
 }
 
 
